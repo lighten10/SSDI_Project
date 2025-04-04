@@ -17,11 +17,11 @@ INSERT INTO LoginTable VALUES ('admin' ,'admin@healthsphere.com' ,   3)
 
 
 --DEPARTMENT INSERTION
-insert into department values(1 , 'Cardiology' , 'We have the best heart specialists in town .Each one of them is very competent and experienced.')
-insert into department values(2 , 'Orthopaedics' , 'Orthopedic surgeons use surgical means to treat musculoskeletal trauma, infections, tumors. We believe in the best.')
-insert into department values(3 , 'Ears Nose Throat' , 'They are gentle. And are trained to handle kids as well as adults.')
-insert into department values(4 , 'Physiotherapy ',' Physiotherapists work through physical therapies such as exercise, and manipulation of bones, joints and muscle tissues.' )
-insert into department values(5 , 'Neurology', 'A medical speciality dealing with disorders of the nervous system. It deals with the diagnosis and treatment of all categories of disease.')
+insert into department values(1 , 'Cardiology' , ' The Department of Cardiology specializes in the diagnosis, treatment, and prevention of heart-related diseases and conditions.')
+insert into department values(2 , 'Orthopaedics' , 'The Department of Orthopaedics focuses on the diagnosis, treatment, and rehabilitation of musculoskeletal disorders, including bones, joints, ligaments, and muscles.')
+insert into department values(3 , 'Ears Nose Throat' , 'The Department of Ear, Nose, and Throat (ENT) specializes in the diagnosis and treatment of disorders related to the ear, nose, throat, head, and neck.')
+insert into department values(4 , 'Physiotherapy ','The Department of Physiotherapy focuses on restoring movement, function, and mobility through physical exercises, manual therapy, and rehabilitation techniques.' )
+insert into department values(5 , 'Neurology', 'The Department of Neurology specializes in the diagnosis and treatment of disorders affecting the brain, spinal cord, and nervous system.')
 
 
 

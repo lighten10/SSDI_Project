@@ -13,7 +13,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="Cp1" runat="server">
 
 
-    <div style="background-image:url(/assets/img/backgrounds/PatientHome.jpg); background-position:center; background-size:20px; margin-left:50px">
+    <div style="margin-left:50px">
 
             <h1>Your Profile</h1>
              <br />        

@@ -36,6 +36,31 @@
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css" />
 
 
+    <style type="text/css">
+        html {
+            background-image: url("/assets/img/backgrounds/doctor.jpg");
+            background-size: cover;
+            background-position: 0 -90px;
+            background-attachment: fixed;
+        }
+
+        body {
+            background: none !important;
+        }
+
+        .backstretch {
+            display: none !important;
+        }
+
+        .grad {
+            background: linear-gradient(to right, rgba(30, 160, 130, 0.15),rgba(0, 148, 255, 1));
+            border-radius: 8px;
+        }
+
+        #space {
+            padding-bottom: 50px;
+        }
+    </style>
 
 
 

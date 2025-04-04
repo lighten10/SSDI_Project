@@ -6,6 +6,7 @@
 </script>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+
 </asp:Content>
 
 
@@ -14,6 +15,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 
     <style type="text/css">
+
         .outer {
             margin-left: 20%;
             display: inline-block;

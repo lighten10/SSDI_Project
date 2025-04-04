@@ -13,7 +13,7 @@
 
     html
     {
-      background-image:url("/assets/Doctor.jpg");   
+      background-image:url("/assets/img/backgrounds/doctor.jpg");   
       background-size: cover;
       background-position: 0 -90px;
       background-attachment: fixed;

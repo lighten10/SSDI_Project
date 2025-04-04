@@ -35,6 +35,32 @@
 
 
 
+    <style type="text/css">
+        html {
+            background-image: url("/assets/img/backgrounds/patient.jpg");
+            background-size: cover;
+            background-position: 0 -90px;
+            background-attachment: fixed;
+        }
+
+        body {
+            background: none !important;
+        }
+
+        .backstretch {
+            display: none !important;
+        }
+
+        .grad {
+            background: linear-gradient(to right, rgba(30, 160, 100, 0.15),rgba(150, 148, 255, 1));
+            border-radius: 8px;
+        }
+
+        #space {
+            padding-bottom: 50px;
+        }
+    </style>
+
 
 
     <!-- Head Content Place Holder -->
