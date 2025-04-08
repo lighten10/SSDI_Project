@@ -51,11 +51,11 @@
         //----------------------Function2-----------------------------//
         function validateS() {
             var Name = document.getElementById('<%=sName.ClientID %>').value;
-         var Bdate = document.getElementById('<%=sBirthDate.ClientID %>').value;
-         var Email = document.getElementById('<%=sEmail.ClientID %>').value;
-         var phone = document.getElementById('<%=Phone.ClientID %>').value;
-         var pass = document.getElementById('<%=sPassword.ClientID %>').value;
-         var cpass = document.getElementById('<%=scPassword.ClientID %>').value;
+            var Bdate = document.getElementById('<%=sBirthDate.ClientID %>').value;
+            var Email = document.getElementById('<%=sEmail.ClientID %>').value;
+            var phone = document.getElementById('<%=Phone.ClientID %>').value;
+            var pass = document.getElementById('<%=sPassword.ClientID %>').value;
+            var cpass = document.getElementById('<%=scPassword.ClientID %>').value;
 
             /*now the validation code*/
 
@@ -114,7 +114,7 @@
         //----------------------Function2-----------------------------//
         function validateL() {
             var Email = document.getElementById('<%=loginEmail.ClientID %>').value;
-         var Password = document.getElementById('<%=loginPassword.ClientID %>').value;
+            var Password = document.getElementById('<%=loginPassword.ClientID %>').value;
 
             /*now the validation code*/
 
@@ -134,11 +134,11 @@
         //------------------------------------------------------------------//
         //------------------------------------------------------------------//
 
-</script>
+    </script>
 
 
     <!-- CSS -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" />
+    <%--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" />--%>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/form-elements.css" />
@@ -165,14 +165,11 @@
 
 </head>
 
-
-
 <body>
 
     <form id="SignUpPage" runat="server">
 
         <div>
-            <!-- Top content -->
 
             <div class="top-content">
                 <div class="inner-bg">
@@ -229,20 +226,16 @@
 
                                         <asp:Button ID="loginUserName" runat="server" type="submit" Text="Login" class="btn btn-primary" OnClientClick="return validateL();" OnClick="loginV"></asp:Button>
 
-
-                                        <!--login ends here -->
-
                                     </div>
 
                                 </div>
 
-
-                                <div class="social-login">
+                                <div class="social-login" hidden="hidden">
                                     <h3>...or login with:</h3>
                                     <div class="social-login-buttons">
                                         <a class="btn btn-link-1 btn-link-1-facebook" href="#">
                                             <i class="fa fa-facebook"></i>Facebook
-		                        	</a>
+                                        </a>
                                     </div>
                                 </div>
 
@@ -267,11 +260,6 @@
 
 
                                     <div class="form-bottom">
-
-
-
-                                        <!-- sign up form start honay laga hai :)-->
-
 
                                         <div class="form-group">
 
@@ -322,7 +310,6 @@
                            
                                         </div>
 
-
                                         <div class="form-group">
 
                                             <asp:TextBox ID="Address" placeholder="Address" TextMode="multiline" Columns="40" Rows="10" runat="server" Height="75px" Width="410px" />
@@ -330,9 +317,6 @@
                                         </div>
 
                                         <asp:Button Text="SignUp" runat="server" type="submit" class="btn btn-primary" OnClientClick="return validateS();" OnClick="signupV"></asp:Button>
-
-
-                                        <!-- sign up ends here -->
 
                                     </div>
                                 </div>
@@ -342,8 +326,6 @@
                 </div>
             </div>
 
-
-            <!-- Footer -->
             <footer>
                 <div class="container">
                     <div class="row">
@@ -357,10 +339,8 @@
                 </div>
             </footer>
 
-
         </div>
     </form>
-
 
 </body>
 </html>

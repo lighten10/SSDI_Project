@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using HealthSphereWebApp.DAL;
 using System.Data;
 
-namespace doctor
+namespace HealthSphereWebApp
 {
     public partial class bill : System.Web.UI.Page
     {

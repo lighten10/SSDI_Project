@@ -9,7 +9,7 @@
     <!--------------------------------- Styling -------------------------------->
 
     <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css' />
+    <%--<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css' />--%>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="/assets/css/demo.css" />
     <link rel="stylesheet" href="/assets/css/footer-distributed-with-address-and-phones.css" />
 
-    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css" />
+    <%--<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css" />--%>
 
 
 

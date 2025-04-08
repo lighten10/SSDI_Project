@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace doctor {
-    
-    
-    public partial class bill {
-        
+namespace HealthSphereWebApp
+{
+
+
+    public partial class bill
+    {
+
         /// <summary>
         /// Label1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace doctor {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
-        
+
         /// <summary>
         /// Bill control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace doctor {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Bill;
-        
+
         /// <summary>
         /// Button1 control.
         /// </summary>

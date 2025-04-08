@@ -26,12 +26,14 @@ insert into department values(5 , 'Neurology', 'The Department of Neurology spec
 
 
 --LOGIN TABLE INSERTIION
+--doctors
 INSERT INTO LoginTable(Email, Password, Type) VALUES('popeye@healthsphere.com', 'asd', 2)
 INSERT INTO LoginTable(Email, Password, Type) VALUES('pinkpanther@healthsphere.com', 'asd', 2)
 INSERT INTO LoginTable(Email, Password, Type) VALUES('mickeymouse@healthsphere.com', 'asd', 2)
 INSERT INTO LoginTable(Email, Password, Type) VALUES('donaldduck@healthsphere.com', 'asd', 2)
 INSERT INTO LoginTable(Email, Password, Type) VALUES('doramon@healthsphere.com', 'asd', 2)
 
+--patients
 INSERT INTO LoginTable(Email, Password, Type) VALUES('superman@healthsphere.com', 'asd', 1)
 INSERT INTO LoginTable(Email, Password, Type) VALUES('spiderman@healthsphere.com', 'asd', 1)
 INSERT INTO LoginTable(Email, Password, Type) VALUES('deadpool@healthsphere.com', 'asd', 1)
@@ -75,18 +77,18 @@ insert into OtherStaff values ('Darth Vader', '666-666-6666','Wonderland, DC', '
 --Because I have inserted the date and time in a particular format in the appointment table and that format has to be maintained
 --for proper working
 
-/*
---APPOINTMENT INSERTIONS 
-DECLARE @DOCTOR_ID INT
-DECLARE @PATIENT_ID INT
-SELECT @DOCTOR_ID = LoginID FROM LoginTable WHERE Email='farhan@gmail.com'
-SELECT @PATIENT_ID = LoginID FROM LoginTable WHERE Email='ABC@gmail.com'
-INSERT INTO Appointment(DoctorID, PatientID, Date, Appointment_Status) VALUES(@DOCTOR_ID, @PATIENT_ID, '2017-5-4 10:00:00', 3)
-SELECT @DOCTOR_ID = LoginID FROM LoginTable WHERE Email='farhan@gmail.com'
-SELECT @PATIENT_ID = LoginID FROM LoginTable WHERE Email='DEF@gmail.com'
-INSERT INTO Appointment(DoctorID, PatientID, Date, Appointment_Status) VALUES(@DOCTOR_ID, @PATIENT_ID, '2017-5-4 12:00:00', 1)
-SELECT @DOCTOR_ID = LoginID FROM LoginTable WHERE Email='hassaan@gmail.com'
-SELECT @PATIENT_ID = LoginID FROM LoginTable WHERE Email='DEF@gmail.com'
-INSERT INTO Appointment(DoctorID, PatientID, Date, Appointment_Status) VALUES(@DOCTOR_ID, @PATIENT_ID, '2017-5-4 16:00:00', 3)
-*/
+-- APPOINTMENT INSERTIONS 
+--DECLARE @DOCTOR_ID INT
+--DECLARE @PATIENT_ID INT
+--SELECT @DOCTOR_ID = LoginID FROM LoginTable WHERE Email='popeye@healthsphere.com'
+--SELECT @PATIENT_ID = LoginID FROM LoginTable WHERE Email='superman@healthsphere.com'
+--INSERT INTO Appointment(DoctorID, PatientID, Date, Appointment_Status) VALUES(@DOCTOR_ID, @PATIENT_ID, '2017-5-4 10:00:00', 3)
+--SELECT @DOCTOR_ID = LoginID FROM LoginTable WHERE Email='pinkpanther@healthsphere.com'
+--SELECT @PATIENT_ID = LoginID FROM LoginTable WHERE Email='spiderman@healthsphere.com'
+--INSERT INTO Appointment(DoctorID, PatientID, Date, Appointment_Status) VALUES(@DOCTOR_ID, @PATIENT_ID, '2017-5-4 12:00:00', 1)
+--SELECT @DOCTOR_ID = LoginID FROM LoginTable WHERE Email='popeye@healthsphere.com'
+--SELECT @PATIENT_ID = LoginID FROM LoginTable WHERE Email='deadpool@healthsphere.com'
+--INSERT INTO Appointment(DoctorID, PatientID, Date, Appointment_Status) VALUES(@DOCTOR_ID, @PATIENT_ID, '2017-5-4 16:00:00', 3)
+
+
 

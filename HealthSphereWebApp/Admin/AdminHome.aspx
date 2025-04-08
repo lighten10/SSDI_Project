@@ -1,9 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="AdminHome.aspx.cs" Inherits="HealthSphereWebApp.AdminHome" %>
 
-
-
-
-
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <style type="text/css">
         html {
@@ -37,17 +33,9 @@
 </asp:Content>
 
 
-
-
-
-
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-
     <form runat="server">
-
-
-
 
         <br />
         <h1 style="text-decoration: underline;">Dashboard</h1>
@@ -72,27 +60,20 @@
             <br />
             <br />
 
-
-
             <h3><strong style="margin: 5%">Current Appointments</strong></h3>
 
             <asp:GridView ID="Appointment_view" runat="server" CellPadding="4" ForeColor="Black" GridLines="Vertical" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px">
                 <AlternatingRowStyle BackColor="White" />
                 <FooterStyle BackColor="#CCCC99" />
                 <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
-                <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
-                <RowStyle BackColor="#F7F7DE" />
+                <PagerStyle BackColor="Silver" ForeColor="Black" HorizontalAlign="Right" />
+                <RowStyle BackColor="Silver"/>
                 <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
                 <SortedAscendingCellStyle BackColor="#FBFBF2" />
                 <SortedAscendingHeaderStyle BackColor="#848384" />
                 <SortedDescendingCellStyle BackColor="#EAEAD3" />
                 <SortedDescendingHeaderStyle BackColor="#575357" />
             </asp:GridView>
-
-
-
-
-
 
         </div>
 
@@ -105,8 +86,8 @@
                 <AlternatingRowStyle BackColor="White" />
                 <FooterStyle BackColor="#CCCC99" />
                 <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
-                <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
-                <RowStyle BackColor="#F7F7DE" />
+                <PagerStyle BackColor="Silver" ForeColor="Black" HorizontalAlign="Right" />
+                <RowStyle BackColor="Silver" />
                 <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
                 <SortedAscendingCellStyle BackColor="#FBFBF2" />
                 <SortedAscendingHeaderStyle BackColor="#848384" />
@@ -114,13 +95,7 @@
                 <SortedDescendingHeaderStyle BackColor="#575357" />
             </asp:GridView>
 
-
         </div>
-
-
-
-
-
 
     </form>
 </asp:Content>
