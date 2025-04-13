@@ -178,14 +178,8 @@
                         <div class="row">
                             <div class="col-sm-8 col-sm-offset-2 text">
 
-                                <h1><strong>HealthSphere</strong> Login &amp; Registration Form</h1>
+                                <h1>HealthSphere</h1>
 
-                                <div class="description">
-                                    <p>
-                                        This is a free <strong>"Login and Registration form"</strong> for Health Care Clinic. 
-                            
-                                    </p>
-                                </div>
                             </div>
                         </div>
 
@@ -196,7 +190,7 @@
                                     <div class="form-top">
                                         <div class="form-top-left">
 
-                                            <h3>Login to our Website</h3>
+                                            <h3>Login</h3>
                                             <p>Enter Email and Password to log in:</p>
 
                                         </div>
@@ -250,7 +244,7 @@
                                 <div class="form-box">
                                     <div class="form-top">
                                         <div class="form-top-left">
-                                            <h3>Sign up now</h3>
+                                            <h3>Sign Up</h3>
                                             <p>Fill in the form below to get instant access:</p>
                                         </div>
                                         <div class="form-top-right">
@@ -269,7 +263,7 @@
 
                                         <div class="form-group">
 
-                                            <asp:TextBox ID="sBirthDate" runat="server" type="text" class="form-username form-control" placeholder="Birth Date (dd-mm-yyyy)"></asp:TextBox>
+                                            <asp:TextBox ID="sBirthDate" runat="server" type="text" class="form-username form-control" placeholder="Birth Date"></asp:TextBox>
 
                                         </div>
 
@@ -295,7 +289,7 @@
 
                                         <div class="form-group">
 
-                                            <asp:TextBox ID="Phone" runat="server" type="text" class="form-username form-control" placeholder="Phone Number (11 Digits)"></asp:TextBox>
+                                            <asp:TextBox ID="Phone" runat="server" type="text" class="form-username form-control" placeholder="Phone Number"></asp:TextBox>
 
                                         </div>
 
