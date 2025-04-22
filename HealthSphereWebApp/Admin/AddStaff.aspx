@@ -73,7 +73,7 @@
 
                                 <div class="description">
                                     <p>
-                                        This is a <strong>"registeration form"</strong> for HealthSphere. 
+                                        This is a <strong>"registration form"</strong> for HealthSphere. 
 	                            	Fill out the information to register the staff member 
 	                            	
                                     
@@ -204,8 +204,8 @@
                     <div class="col-sm-8 col-sm-offset-2">
                         <div class="footer-border"></div>
                         <p style="color: darkslategrey">
-                            if You have Any Query
-        					Please Feel Free to Contact US. <i class="fa fa-smile-o"></i>
+                            If you have any queries,
+        					please feel free to contact us. <i class="fa fa-smile-o"></i>
                         </p>
 
                     </div>
