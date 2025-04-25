@@ -16,9 +16,6 @@ namespace HealthSphereWebApp
         {
             appointmentToday(sender, e);
         }
-
-
-
         //-----------------------Function1--------------------------//
 
         protected void appointmentToday(object sender, EventArgs e)
