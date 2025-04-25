@@ -46,12 +46,12 @@
         <div style="margin-left: 70px">
 
             <h4><strong>Total Number of Registered Doctors: </strong></h4>  /// spelling correction
-            <asp:Label ID="TotalPatients" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
+            <asp:Label ID="Total_Doctors" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
             <br />
             <br />
 
             <h4><strong>Total Registered Patients: </strong></h4>
-            <asp:Label ID="Total_Doctors" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
+            <asp:Label ID="TotalPatients" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
             <br />
             <br />
 
