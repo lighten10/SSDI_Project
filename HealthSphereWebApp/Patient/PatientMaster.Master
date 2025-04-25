@@ -5,7 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-
     <!--------------------------------- Styling -------------------------------->
 
     <!-- Google Fonts -->
@@ -19,7 +18,6 @@
     <link rel="stylesheet" href="/assets/css/patient-style.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
 
     <!------------------------------------Styling for Footer-------------------------------------->
     <meta charset="utf-8" />
