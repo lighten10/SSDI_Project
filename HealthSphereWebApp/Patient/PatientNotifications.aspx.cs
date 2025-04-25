@@ -8,8 +8,6 @@ using HealthSphereWebApp.DAL;
 using System.Data;
 
 
-
-
 namespace HealthSphereWebApp
 {
     public partial class PatientNotifications : System.Web.UI.Page
