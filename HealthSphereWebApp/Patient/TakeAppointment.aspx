@@ -12,7 +12,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     
-    <!------------------Styling------------------>
+    <!------------------Styling----------------------------->
     <link rel="stylesheet" href="/assets/css/grid-view.css"/>
 
 
