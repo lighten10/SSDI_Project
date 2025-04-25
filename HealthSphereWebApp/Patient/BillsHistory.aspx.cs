@@ -7,7 +7,6 @@ using System.Web.UI.WebControls;
 using HealthSphereWebApp.DAL;
 using System.Data;
 
-
 namespace HealthSphereWebApp
 {
     public partial class BillsHistory : System.Web.UI.Page
@@ -16,7 +15,6 @@ namespace HealthSphereWebApp
         {
             billHistory(sender, e);
         }
-
 
         //-----------------------Function1--------------------------//
 
