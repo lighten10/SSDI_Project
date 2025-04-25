@@ -90,7 +90,7 @@
 
 
 
-            <!--  Doctor registration form start honay laga hai :)-->
+            <!--  Staff registration form :)-->
 
             <div class="container myclass">
 
@@ -119,7 +119,7 @@
 
 
 
-                                <!-- Staff REg  form start honay laga hai :)-->
+                                <!-- Staff Registration  form :)-->
 
 
                                 <div class="form-group">
@@ -137,7 +137,7 @@
                                     <asp:RequiredFieldValidator runat="server" ErrorMessage="*Required" ControlToValidate="BirthDate" ID="BDateReqiured" Display="Dynamic" Font-Bold="False" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
 
                                     <asp:RegularExpressionValidator ID="BirthDateValidator" runat="server" ErrorMessage="Birth Date Format Not Correct" ControlToValidate="BirthDate" Display="Dynamic" ValidationExpression="((?:0[1-9])|(?:1[0-2]))\/((?:0[0-9])|(?:[1-2][0-9])|(?:3[0-1]))\/(\d{4})" ForeColor="Red" SetFocusOnError="True"></asp:RegularExpressionValidator>
-                                    <asp:TextBox ID="BirthDate" runat="server" type="text" class="form-username form-control" placeholder="Birht Date (mm/dd/yyyy)"></asp:TextBox>
+                                    <asp:TextBox ID="BirthDate" runat="server" type="text" class="form-username form-control" placeholder="Birth Date (mm/dd/yyyy)"></asp:TextBox>
 
                                 </div>
 

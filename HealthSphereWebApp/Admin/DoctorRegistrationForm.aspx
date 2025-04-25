@@ -80,7 +80,7 @@
                             
                             <div class="description">
                             	<p>
-	                            	This is a free <strong>"Doctor registeration form"</strong> for HealthSphere. 
+	                            	This is a free <strong>"Doctor registration form"</strong> for HealthSphere. 
 	                            	Fill out the information of the Doctor to Register 
 	                            	
                                     
@@ -97,7 +97,7 @@
                                     
                                     
                                     
-                                    <!--  Doctor registration form start honay laga hai :)-->
+                                    <!--  Doctor registration form -->
                                     
                                     <div class="container myclass">
 
@@ -126,7 +126,7 @@
                                     
                                     
                                     
-                                    <!-- sign up form start honay laga hai :)-->
+                                    <!-- sign up form -->
                                     
                                     
                                         <div class="form-group">
@@ -144,7 +144,7 @@
                                             <asp:RequiredFieldValidator runat="server" ErrorMessage="*Required" ControlToValidate="BirthDate" ID="BDateReqiured" Display="Dynamic" Font-Bold="False" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
 
                                             <asp:RegularExpressionValidator ID="BirthDateValidator" runat="server" ErrorMessage="Birth Date Format Not Correct" ControlToValidate="BirthDate" Display="Dynamic" ValidationExpression="((?:0[1-9])|(?:1[0-2]))\/((?:0[0-9])|(?:[1-2][0-9])|(?:3[0-1]))\/(\d{4})" ForeColor="Red" SetFocusOnError="True"></asp:RegularExpressionValidator>
-                                            <asp:TextBox ID="BirthDate" runat="server" type="text" class="form-username form-control" placeholder="Birht Date (mm/dd/yyyy)" ></asp:TextBox>
+                                            <asp:TextBox ID="BirthDate" runat="server" type="text" class="form-username form-control" placeholder="Birth Date (mm/dd/yyyy)" ></asp:TextBox>
            	                            
                                         </div>
 				                        <div class="form-group">
@@ -276,7 +276,7 @@
 				                <!-- onclick="signup" -->
                                         
                                     
-                                <!-- sing up ends here -->
+                                <!-- sign up ends here -->
                                             
                                     
                                     
@@ -317,8 +317,8 @@
         			
         			<div class="col-sm-8 col-sm-offset-2">
         				<div class="footer-border"></div>
-        				<p style="color:darkslategrey">if You have Any Query
-        					Please Feel Free to Contact US. <i class="fa fa-smile-o"></i></p>
+        				<p style="color:darkslategrey">If you have any query,
+        					Please feel free to contact us. <i class="fa fa-smile-o"></i></p>
         			
                    
                     

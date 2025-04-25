@@ -45,7 +45,7 @@
 
         <div style="margin-left: 70px">
 
-            <h4><strong>Total Number of Regstered Doctors: </strong></h4>
+            <h4><strong>Total Number of Registered Doctors: </strong></h4>  /// spelling correction
             <asp:Label ID="TotalPatients" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
             <br />
             <br />
