@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-    <title>HealthSphere Login &amp; Register</title>
+    <title>Health Sphere Login &amp; Register</title>
 
 
     <script type="text/javascript">
