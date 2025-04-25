@@ -7,8 +7,6 @@ using System.Web.UI.WebControls;
 using HealthSphereWebApp.DAL;
 using System.Data;
 
-
-
 namespace HealthSphereWebApp
 {
     public partial class AppointmentNotificationSent : System.Web.UI.Page
