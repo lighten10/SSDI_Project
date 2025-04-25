@@ -9,8 +9,6 @@
 
 </asp:Content>
 
-
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     
@@ -29,8 +27,6 @@
         AutoGenerateSelectButton="True" 
         OnRowCommand="TDeptGrid_RowCommand" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px">
      
-        
-
         <AlternatingRowStyle BackColor="White" />
         <FooterStyle BackColor="#CCCC99" />
         <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
@@ -55,7 +51,7 @@
 
     </asp:GridView>
 
-    <br /><br />
+    <br /><br /> <br />
 
 
 </asp:Content>
