@@ -11,9 +11,6 @@
 </asp:Content>
 
 
-
-
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
@@ -52,7 +49,6 @@
         <asp:Label ID="F" runat="server" Font-Bold="true" Font-Size="Medium"></asp:Label>
 
      </div>
-
 
      <br /><br />
     </div>
