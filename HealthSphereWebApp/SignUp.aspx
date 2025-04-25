@@ -19,7 +19,7 @@
             }
 
             else if (Email.indexOf("@") == -1 || Email.indexOf(".com") == -1) {
-                alert("Your email address seems incorrect. Please enter a new one.");
+                alert("Your email address looks incorrect. Please enter a new one.");
                 return false;
             }
 
@@ -27,7 +27,7 @@
                 var location = Email.indexOf("@");
 
                 if (Email[0] == '@' || Email[location + 1] == '.') {
-                    alert("Your email address seems incorrect. Please enter a new one.");
+                    alert("Your email address looks incorrect. Please enter a new one.");
                     return false;
                 }
 
@@ -35,7 +35,7 @@
                 var EmailmatchArray = Email.match(emailPat);
 
                 if (EmailmatchArray == null) {
-                    alert("Your email address seems incorrect. Please enter a new one.");
+                    alert("Your email address looks incorrect. Please enter a new one.");
                     return false;
                 }
             }
@@ -73,7 +73,7 @@
             }
 
             else if ((Bdate == arrDbirth[0]) || (arrDbirth[0].length != 2) || arrDbirth[1].length != 2 || arrDbirth[2].length != 4 || !arrDbirth[0].match(/^[0-9]*$/) || !arrDbirth[1].match(/^[0-9]*$/) || !arrDbirth[2].match(/^[0-9]*$/) || Number(arrDbirth[0]) > 31 || Number(arrDbirth[1]) > 12) {
-                alert("Birth Date Format Incorrect or out of Range.");
+                alert("Birth Date Format is Incorrect or out of Range.");
                 return false;
             }
 
@@ -130,7 +130,6 @@
             return true;
         }
 
-        //------------------------------------------------------------------//
         //------------------------------------------------------------------//
         //------------------------------------------------------------------//
 
