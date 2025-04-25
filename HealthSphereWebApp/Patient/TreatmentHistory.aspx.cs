@@ -8,7 +8,6 @@ using HealthSphereWebApp.DAL;
 using System.Data;
 
 
-
 namespace HealthSphereWebApp
 {
     public partial class TreatmentHistory : System.Web.UI.Page
