@@ -17,8 +17,6 @@ namespace HealthSphereWebApp
             Session["freeSlot"] = "";
             freeSlots(sender, e);
         }
-
-
         //---------------Function Called whenever a Free Slot is selected from the Grid View----//
         protected void PAppointmentGrid_RowCommand(object sender, GridViewCommandEventArgs e)
         {
